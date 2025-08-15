@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: -10px;
+}
+
+.play-button {
+    font-size: 2em;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    align-items: center;
+}
+
+.quote {
+    flex: 1;
+    padding: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bio-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.bio-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.bio-section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
